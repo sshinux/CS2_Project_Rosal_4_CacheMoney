@@ -1,30 +1,19 @@
-# Project_Template_ComputerScience2
+# PisayPeso
+## By Cache Money: 
+AGUILAR, BISCOCHO, BORJA, DAGATAN, DENIEGA, HERNANDEZ
 
-# 📊 Data Insights Dashboard Project
+## What problem are you trying to solve?
+Students who receive monthly stipends based on their scholarship category may have difficulty keeping track of their money and expenses. This matters because they need to manage their stipend wisely and make sure they have enough money for their needs. Currently, students may rely on notes, calculators, or memory to monitor their spending.
 
-This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
+## What are your app's features? How does the app help solve the problem?
+StipendTrack allows students to record their monthly stipend deposits and daily expenses. Users can view, edit, and delete transaction records, check their remaining balance, and view monthly summaries. It helps students monitor their spending, manage their money, and become more financially responsible.
 
-## 📂 Repository Structure
-- `/data` → Contains sample JSON datasets you can choose from. You can also refer to Annex A for other examples.
-- `/docs` → Place your project proposal and related documentation here.
-- `README.md` → Basic introduction to your project.
-
-## Instructions:
-1. Choose a dataset from the `/data` folder (e.g., students.json, sales.json, movies.json, etc.).
-2. Write your Project Proposal using the provided template in the khub.
-3. Update this `README.md` to describe your project idea. Template:
-
-   - Main header: Project Title
-   - Subheading: Team name and composition
-   
-   - Questions to answer in the README (short, tentative answers okay):
-   - a. What problem are you trying to solve? Think about who has the problem, why it matters, and what people do about it today.
-   - b. What are your app's features? How does the app help solve the problem?
-   - c. What specific data will you handle?
-
-5. Commit and push your changes to GitHub.
-
-##  Getting Started
-- Fork or clone this repository.
-- Open the datasets in the `/data` folder to explore the contents.
-- Follow the proposal template to draft your plan.
+## What specific data will you handle?
+The app will store the following information:
+Transaction ID – A unique number for each transaction.
+Transaction Type – Identifies whether it is a stipend deposit or an expense.
+Scholarship Category – The student's scholarship category.
+Description – Details about the transaction, such as stipend, food, or school supplies.
+Amount – The amount of money received or spent.
+Date – The date when the transaction occurred.
+Month – The month the transaction belongs to for monthly summaries and comparisons.
